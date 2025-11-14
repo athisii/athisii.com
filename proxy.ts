@@ -5,6 +5,6 @@ export const config = {
 };
 
 export default function proxy(request: NextRequest) {
-    console.log("request: ", request)
+    // console.log("request: ", request)
     return NextResponse.next();
 }
